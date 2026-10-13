@@ -1,0 +1,38 @@
+# 让 Git 自动识别文本文件，但不强制转换换行符
+* text=auto
+
+# Unity 相关文件统一使用 LF 换行，避免每次提交都出现 CRLF 警告
+*.cs text eol=lf
+*.prefab text eol=lf
+*.unity text eol=lf
+*.asset text eol=lf
+*.meta text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.shader text eol=lf
+*.cginc text eol=lf
+*.asmdef text eol=lf
+
+# 二进制文件，明确告诉 Git 不要按文本处理
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.psd binary
+*.fbx binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.mp4 binary
+*.ttf binary
+*.otf binary
+*.asset binary
+*.dll binary
+*.exe binary
+*.pdf binary
+*.zip binary
+*.rar binary
+*.7z binary
